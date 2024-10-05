@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 public class ModItems {
     // Items
     public static final Item OBSIDIANDUST = new Item(new Item.Settings());
+    public static final Item OBSIDIANINGOT = new Item(new Item.Settings());
     public static final Item MORTAR = new Item(new Item.Settings()
             .maxDamage(32)
             .maxCount(1));
@@ -28,6 +29,7 @@ public class ModItems {
     public static void registerAll() {
         // Register your items
         register(OBSIDIANDUST, "obsidiandust");
+        register(OBSIDIANINGOT, "obsidianingot");
         register(MORTAR, "mortar");
     }
 
@@ -35,6 +37,7 @@ public class ModItems {
     public static void registerItemGroupEntries() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> {
             itemGroup.add(OBSIDIANDUST);
+            itemGroup.add(OBSIDIANINGOT);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register((itemGroup) -> {
             itemGroup.add(MORTAR);
