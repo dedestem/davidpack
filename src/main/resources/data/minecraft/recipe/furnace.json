@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "000",
     "###",
-    "OO0"
+    "000"
   ],
   "key": {
     "#": {
       "item": "minecraft:flint"
     },
-    "O": {
-      "tag": "minecraft:cobblestone"
+    "0": {
+      "tag": "minecraft:stone_crafting_materials"
     }
   },
   "result": { "id": "minecraft:furnace", "count": 1 },
