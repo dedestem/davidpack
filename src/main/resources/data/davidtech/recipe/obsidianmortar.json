@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:obsidian"
     },
     "M": {
       "item": "davidtech:mortar"
     }
   },
-  "result": { "id": "minecraft:flint", "count": 16 }
+  "result": { "id": "davidtech:obsidiandust", "count": 16 }
 }
