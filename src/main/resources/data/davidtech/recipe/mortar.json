@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "S#S",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": { "id": "davidtech:mortar", "count": 1 }
+}

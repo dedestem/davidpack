@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "davidtech:mortar"
+    }
+  ],
+  "result": { "id": "minecraft:flint", "count": 1 }
+}
